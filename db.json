@@ -1,0 +1,46 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "apellido": "Pérez",
+      "puesto": "Jefe de Proyecto",
+      "departamento": "Tecnología",
+      "direccion": "Av. Principal"
+    }
+  ],
+  "proyectos": [
+    {
+      "id": 1,
+      "nombre": "Proyecto A",
+      "responsable": 1,  
+      "estado": "activo",
+      "nivel_avance": 0,  
+      "actividades": [
+        {
+          "id": 1,
+          "nombre": "Actividad 1",
+          "responsable": 1,  
+          "estado": "en progreso",
+          "nivel_avance": 0,  
+          "subactividades": [
+            {
+              "id": 1,
+              "nombre": "Subactividad 1",
+              "responsable": 1,  
+              "estado": "en progreso",
+              "nivel_avance": 50
+            },
+            {
+              "id": 2,
+              "nombre": "Subactividad 2",
+              "responsable": 2,  
+              "estado": "completada",
+              "nivel_avance": 100
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
